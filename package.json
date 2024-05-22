@@ -1,6 +1,6 @@
 {
 	"name": "raw-beautify",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/default/index.css",
 	"scripts": {
 		"build": "node ./build/index.js",
@@ -9,6 +9,9 @@
 		"test": "node ./test.js"
 	},
 	"keywords": [],
+	"files": [
+		"dist"
+	],
 	"author": "",
 	"license": "ISC",
 	"description": "原生html样式美化",
