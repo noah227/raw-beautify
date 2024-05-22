@@ -1,0 +1,53 @@
+@import "variables";
+
+button {
+	border: 0;
+	padding: var(--common-padding);
+	box-sizing: border-box;
+	border-radius: var(--common-border-radius);
+	box-shadow: 0 0 3px #f0f0f0;
+	transition: all linear .08s;
+	height: var(--common-height);
+	cursor: pointer;
+
+	&:hover {
+		color: #fff;
+		background-color: var(--common-color-primary);
+	}
+
+	&:active {
+		filter: brightness(.9);
+	}
+
+	&[disabled] {
+		cursor: not-allowed;
+	}
+
+	&.primary, &.info, &.warning, &.danger {
+		color: #fff;
+
+		&:hover {
+			filter: opacity(.8);
+		}
+
+		&:active {
+			filter: brightness(.9);
+		}
+	}
+
+	&.primary {
+		background-color: var(--common-color-primary);
+	}
+
+	&.info {
+		background-color: var(--common-color-info);
+	}
+
+	&.warning {
+		background-color: var(--common-color-warning);
+	}
+
+	&.danger {
+		background-color: var(--common-color-danger);
+	}
+}

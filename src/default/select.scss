@@ -1,0 +1,20 @@
+@import "variables";
+
+select {
+	border: 1px solid transparent;
+	padding: var(--common-padding);
+	box-sizing: border-box;
+	border-radius: var(--common-border-radius);
+	box-shadow: 0 0 3px #999 inset;
+	transition: all linear .08s;
+	outline: none;
+	height: var(--common-height);
+
+	&:focus {
+		border: 1px solid lightskyblue;
+	}
+
+	&:hover {
+		box-shadow: 0 0 3px #666 inset;
+	}
+}

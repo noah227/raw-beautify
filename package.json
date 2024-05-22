@@ -1,0 +1,21 @@
+{
+	"name": "raw-beautify",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "node ./build/index.js",
+		"build:watch": "node ./build/index.watch.js",
+		"init": "node ./src/init.js",
+		"test": "node ./test.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "原生html样式美化",
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"http-server": "^14.1.1",
+		"sass": "^1.77.2",
+		"watchpack": "^2.4.1"
+	}
+}

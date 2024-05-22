@@ -1,0 +1,32 @@
+$border-color: #999;
+table {
+	border-collapse: collapse;
+	/* 边框设定 */
+	&.bordered {
+		tr {
+			th {
+				cursor: unset;
+				user-select: none;
+				border-top: 1px solid;
+			}
+
+			th, td {
+				border-left: 1px solid;
+				padding: var(--common-padding);
+				box-sizing: border-box;
+
+				&:last-child {
+					border-right: 1px solid $border-color;
+				}
+
+				border-bottom: 1px solid;
+				border-color: $border-color;
+			}
+
+			&:last-child > td {
+				border-bottom: 1px solid;
+				border-color: $border-color;
+			}
+		}
+	}
+}
