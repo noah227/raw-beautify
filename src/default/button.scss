@@ -1,6 +1,6 @@
 @import "variables";
 
-button {
+button:not(.exclude-me) {
 	border: 0;
 	padding: var(--common-padding);
 	box-sizing: border-box;

@@ -1,5 +1,5 @@
 $border-color: #999;
-table {
+table:not(.exclude-me) {
 	border-collapse: collapse;
 	/* 边框设定 */
 	&.bordered {

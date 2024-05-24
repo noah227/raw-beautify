@@ -1,6 +1,6 @@
 @import "variables";
 
-textarea {
+textarea:not(.exclude-me) {
 	border: 1px solid transparent;
 	padding: 12px;
 	box-sizing: border-box;

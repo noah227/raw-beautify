@@ -22,6 +22,7 @@ import "raw-beautify/dist/default/button.css"
 
 * `table.bordered` 启用边框
 * `button.[info|primary|success|warning|danger]` 特殊样式的button
+* 添加class `exclude-me` 以取消当前标签的样式覆盖
 
 ## 注意事项
 

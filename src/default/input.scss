@@ -1,6 +1,6 @@
 @import "variables";
 
-input {
+input:not(.exclude-me) {
 	box-sizing: border-box;
 
 	&[type="text"], &[type="number"], &[type="date"], &[type="time"] {
