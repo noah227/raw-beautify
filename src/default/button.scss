@@ -39,6 +39,10 @@ button:not(.exclude-me) {
 		background-color: var(--common-color-primary);
 	}
 
+	&.success {
+		background-color: var(--common-color-success);
+	}
+
 	&.info {
 		background-color: var(--common-color-info);
 	}

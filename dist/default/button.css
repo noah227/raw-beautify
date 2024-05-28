@@ -44,6 +44,9 @@ button:not(.exclude-me).primary:active, button:not(.exclude-me).info:active, but
 button:not(.exclude-me).primary {
   background-color: var(--common-color-primary);
 }
+button:not(.exclude-me).success {
+  background-color: var(--common-color-success);
+}
 button:not(.exclude-me).info {
   background-color: var(--common-color-info);
 }
