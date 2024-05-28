@@ -1,0 +1,24 @@
+@charset "UTF-8";
+table:not(.exclude-me) {
+  border-collapse: collapse;
+  /* 边框设定 */
+}
+table:not(.exclude-me).bordered tr th {
+  cursor: unset;
+  user-select: none;
+  border-top: 1px solid;
+}
+table:not(.exclude-me).bordered tr th, table:not(.exclude-me).bordered tr td {
+  border-left: 1px solid;
+  padding: var(--common-padding);
+  box-sizing: border-box;
+  border-bottom: 1px solid;
+  border-color: #999;
+}
+table:not(.exclude-me).bordered tr th:last-child, table:not(.exclude-me).bordered tr td:last-child {
+  border-right: 1px solid #999;
+}
+table:not(.exclude-me).bordered tr:last-child > td {
+  border-bottom: 1px solid;
+  border-color: #999;
+}

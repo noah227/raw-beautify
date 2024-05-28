@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 公共变量区 */
+body {
+  --common-height: 28px;
+  --common-border-radius: 3px;
+  /* 颜色是借鉴的 */
+  --common-color-primary: #409EFF;
+  --common-color-success: #67C23A;
+  --common-color-info: #909399;
+  --common-color-warning: #E6A23C;
+  --common-color-danger: #F56C6C;
+  --common-padding: 3px 12px;
+}

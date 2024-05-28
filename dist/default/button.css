@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 公共变量区 */
+body {
+  --common-height: 28px;
+  --common-border-radius: 3px;
+  /* 颜色是借鉴的 */
+  --common-color-primary: #409EFF;
+  --common-color-success: #67C23A;
+  --common-color-info: #909399;
+  --common-color-warning: #E6A23C;
+  --common-color-danger: #F56C6C;
+  --common-padding: 3px 12px;
+}
+
+button:not(.exclude-me) {
+  border: 0;
+  padding: var(--common-padding);
+  box-sizing: border-box;
+  border-radius: var(--common-border-radius);
+  box-shadow: 0 0 3px #f0f0f0;
+  transition: all linear 0.08s;
+  height: var(--common-height);
+  cursor: pointer;
+}
+button:not(.exclude-me):hover {
+  color: #fff;
+  background-color: var(--common-color-primary);
+}
+button:not(.exclude-me):active {
+  filter: brightness(0.9);
+}
+button:not(.exclude-me)[disabled] {
+  cursor: not-allowed;
+}
+button:not(.exclude-me).primary, button:not(.exclude-me).info, button:not(.exclude-me).warning, button:not(.exclude-me).danger {
+  color: #fff;
+}
+button:not(.exclude-me).primary:hover, button:not(.exclude-me).info:hover, button:not(.exclude-me).warning:hover, button:not(.exclude-me).danger:hover {
+  filter: opacity(0.8);
+}
+button:not(.exclude-me).primary:active, button:not(.exclude-me).info:active, button:not(.exclude-me).warning:active, button:not(.exclude-me).danger:active {
+  filter: brightness(0.9);
+}
+button:not(.exclude-me).primary {
+  background-color: var(--common-color-primary);
+}
+button:not(.exclude-me).info {
+  background-color: var(--common-color-info);
+}
+button:not(.exclude-me).warning {
+  background-color: var(--common-color-warning);
+}
+button:not(.exclude-me).danger {
+  background-color: var(--common-color-danger);
+}
