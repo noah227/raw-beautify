@@ -1,6 +1,6 @@
 {
 	"name": "raw-beautify",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "dist/default/index.css",
 	"scripts": {
 		"build": "node ./build/index.js",

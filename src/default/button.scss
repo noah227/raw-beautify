@@ -23,7 +23,7 @@ button:not(.exclude-me) {
 		cursor: not-allowed;
 	}
 
-	&.primary, &.info, &.warning, &.danger {
+	&.primary, &.success, &.info, &.warning, &.danger {
 		color: #fff;
 
 		&:hover {

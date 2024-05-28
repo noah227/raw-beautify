@@ -32,13 +32,13 @@ button:not(.exclude-me):active {
 button:not(.exclude-me)[disabled] {
   cursor: not-allowed;
 }
-button:not(.exclude-me).primary, button:not(.exclude-me).info, button:not(.exclude-me).warning, button:not(.exclude-me).danger {
+button:not(.exclude-me).primary, button:not(.exclude-me).success, button:not(.exclude-me).info, button:not(.exclude-me).warning, button:not(.exclude-me).danger {
   color: #fff;
 }
-button:not(.exclude-me).primary:hover, button:not(.exclude-me).info:hover, button:not(.exclude-me).warning:hover, button:not(.exclude-me).danger:hover {
+button:not(.exclude-me).primary:hover, button:not(.exclude-me).success:hover, button:not(.exclude-me).info:hover, button:not(.exclude-me).warning:hover, button:not(.exclude-me).danger:hover {
   filter: opacity(0.8);
 }
-button:not(.exclude-me).primary:active, button:not(.exclude-me).info:active, button:not(.exclude-me).warning:active, button:not(.exclude-me).danger:active {
+button:not(.exclude-me).primary:active, button:not(.exclude-me).success:active, button:not(.exclude-me).info:active, button:not(.exclude-me).warning:active, button:not(.exclude-me).danger:active {
   filter: brightness(0.9);
 }
 button:not(.exclude-me).primary {
