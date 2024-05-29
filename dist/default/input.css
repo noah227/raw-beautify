@@ -30,7 +30,10 @@ input:not(.exclude-me)[type=text]:focus, input:not(.exclude-me)[type=number]:foc
 input:not(.exclude-me)[type=text]:hover, input:not(.exclude-me)[type=number]:hover, input:not(.exclude-me)[type=date]:hover, input:not(.exclude-me)[type=time]:hover {
   box-shadow: 0 0 3px #666 inset;
 }
-input:not(.exclude-me)[type=text][type=number]::-webkit-inner-spin-button, input:not(.exclude-me)[type=number][type=number]::-webkit-inner-spin-button, input:not(.exclude-me)[type=date][type=number]::-webkit-inner-spin-button, input:not(.exclude-me)[type=time][type=number]::-webkit-inner-spin-button {
+input:not(.exclude-me)[type=number] {
+  padding-right: 0;
+}
+input:not(.exclude-me)[type=number]::-webkit-inner-spin-button {
   height: 20px;
 }
 input:not(.exclude-me)[type=file] {

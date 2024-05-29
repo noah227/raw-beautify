@@ -19,11 +19,15 @@ input:not(.exclude-me) {
 		&:hover {
 			box-shadow: 0 0 3px #666 inset;
 		}
+	}
 
-		&[type="number"]::-webkit-inner-spin-button {
+	&[type="number"] {
+		padding-right: 0;
+		&::-webkit-inner-spin-button {
 			height: 20px;
 		}
 	}
+
 
 	&[type="file"] {
 		color: #999;
