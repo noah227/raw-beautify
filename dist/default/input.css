@@ -31,7 +31,7 @@ input:not(.exclude-me)[type=text]:hover, input:not(.exclude-me)[type=number]:hov
   box-shadow: 0 0 3px #666 inset;
 }
 input:not(.exclude-me)[type=number] {
-  padding-right: 0;
+  padding-right: 3px;
 }
 input:not(.exclude-me)[type=number]::-webkit-inner-spin-button {
   height: 20px;
