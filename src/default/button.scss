@@ -10,13 +10,14 @@ button:not(.exclude-me) {
 	height: var(--common-height);
 	cursor: pointer;
 
-	&:hover {
-		color: #fff;
-		background-color: var(--common-color-primary);
-	}
-
-	&:active {
-		filter: brightness(.9);
+	&:not([disabled]) {
+		&:hover {
+			color: #fff;
+			background-color: var(--common-color-primary);
+		}
+		&:active {
+			filter: brightness(.9);
+		}
 	}
 
 	&[disabled] {
@@ -25,13 +26,14 @@ button:not(.exclude-me) {
 
 	&.primary, &.success, &.info, &.warning, &.danger {
 		color: #fff;
+		&:not([disabled]){
+			&:hover {
+				filter: opacity(.8);
+			}
 
-		&:hover {
-			filter: opacity(.8);
-		}
-
-		&:active {
-			filter: brightness(.9);
+			&:active {
+				filter: brightness(.9);
+			}
 		}
 	}
 
