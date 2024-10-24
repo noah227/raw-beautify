@@ -4,20 +4,20 @@ input:not(.exclude-me) {
 	box-sizing: border-box;
 
 	&[type="text"], &[type="number"], &[type="date"], &[type="time"] {
-		border: 1px solid transparent;
+		border: none;
 		padding: var(--common-padding);
 		border-radius: var(--common-border-radius);
-		box-shadow: 0 0 3px #999 inset;
+		box-shadow: 0 0 0 1px #999;
 		transition: all linear .08s;
 		outline: none;
 		height: var(--common-height);
 
 		&:focus {
-			border: 1px solid lightskyblue;
+			box-shadow: 0 0 0 1px lightskyblue;
 		}
 
 		&:hover {
-			box-shadow: 0 0 3px #666 inset;
+			box-shadow: 0 0 0 1px lightskyblue;
 		}
 	}
 

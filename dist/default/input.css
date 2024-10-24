@@ -16,19 +16,19 @@ input:not(.exclude-me) {
   box-sizing: border-box;
 }
 input:not(.exclude-me)[type=text], input:not(.exclude-me)[type=number], input:not(.exclude-me)[type=date], input:not(.exclude-me)[type=time] {
-  border: 1px solid transparent;
+  border: none;
   padding: var(--common-padding);
   border-radius: var(--common-border-radius);
-  box-shadow: 0 0 3px #999 inset;
+  box-shadow: 0 0 0 1px #999;
   transition: all linear 0.08s;
   outline: none;
   height: var(--common-height);
 }
 input:not(.exclude-me)[type=text]:focus, input:not(.exclude-me)[type=number]:focus, input:not(.exclude-me)[type=date]:focus, input:not(.exclude-me)[type=time]:focus {
-  border: 1px solid lightskyblue;
+  box-shadow: 0 0 0 1px lightskyblue;
 }
 input:not(.exclude-me)[type=text]:hover, input:not(.exclude-me)[type=number]:hover, input:not(.exclude-me)[type=date]:hover, input:not(.exclude-me)[type=time]:hover {
-  box-shadow: 0 0 3px #666 inset;
+  box-shadow: 0 0 0 1px lightskyblue;
 }
 input:not(.exclude-me)[type=number] {
   padding-right: 3px;
