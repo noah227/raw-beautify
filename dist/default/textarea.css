@@ -13,17 +13,17 @@ body {
 }
 
 textarea:not(.exclude-me) {
-  border: 1px solid transparent;
+  border: none;
   padding: 12px;
   box-sizing: border-box;
   border-radius: var(--common-border-radius);
-  box-shadow: 0 0 3px #999 inset;
+  box-shadow: 0 0 0 1px #999;
   transition: all linear 0.08s;
   outline: none;
 }
 textarea:not(.exclude-me):focus {
-  border: 1px solid lightskyblue;
+  box-shadow: 0 0 0 1px lightskyblue;
 }
 textarea:not(.exclude-me):hover {
-  box-shadow: 0 0 3px #666 inset;
+  box-shadow: 0 0 0 1px lightskyblue;
 }
